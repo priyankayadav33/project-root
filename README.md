@@ -68,12 +68,12 @@ npm install
 #### 🔑 Create `.env.local`
 
 ```env
-AUTH0_SECRET=your_random_32byte_string
+AUTH0_SECRET=KJd8LhQw29t4Z2cSx5u7Vj9mR0aFgTqP
 AUTH0_BASE_URL=http://localhost:3000
-AUTH0_ISSUER_BASE_URL=https://your-tenant.us.auth0.com
-AUTH0_CLIENT_ID=your-client-id
-AUTH0_CLIENT_SECRET=your-client-secret
-AUTH0_AUDIENCE=https://my-api        # If you created API
+AUTH0_ISSUER_BASE_URL=https://your-tenant.auth0.com
+AUTH0_CLIENT_ID=e2TVpco9XrYsBvqAm7qQUMOhXeCij597
+AUTH0_CLIENT_SECRET=mw3vhSVECIpLZjO9PMG8Tr-wERrUdeb22dKo1HLh1OsHqT8yp6L-MYo8DLzhhxFs
+AUTH0_AUDIENCE=https:https:https://my-api       
 BACKEND_API=http://localhost:5000
 ```
 
@@ -104,14 +104,13 @@ npm install
 
 ```env
 PORT=5000
-AUTH0_DOMAIN=your-tenant.us.auth0.com
+AUTH0_DOMAIN=https://dev-rov5md6dfepugdcy.us.auth0.com
 AUTH0_AUDIENCE=https://my-api
-SMTP_USER=youremail@gmail.com
-SMTP_PASS=your-app-password
-EMAIL_FROM=youremail@gmail.com
+SMTP_USER=yadavppp777777@gmail.com
+SMTP_PASS=zhfq zrrg fwvy ccoz
+EMAIL_FROM=yadavppp777777@gmail.com
 ```
 
-> ⚠️ If using Gmail, make sure to enable "App Passwords" for your account.
 
 #### ▶️ Start Backend
 
